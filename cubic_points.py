@@ -1,4 +1,4 @@
-print("The transformations will be calculated in the given form (y = a√((x - h)) + k")
+print("The transformations will be calculated in the given form (y = a√(b(x - h)) + k")
 
 #Spacing
 print("")
@@ -120,11 +120,11 @@ print("")
 print("")
 
 
-#h translations
+#k translations
 if k > 0:
-    print(f"{abs(h)} units up")
+    print(f"{abs(k)} units up")
 elif k < 0:
-    print(f"{abs(h)} units down")
+    print(f"{abs(k)} units down")
 elif k == 0:
     print("No vertical translations")
 else:
@@ -138,43 +138,43 @@ print("")
 
 #Points1
 x1 = 0
-x1_after = (x1 * b) + -(h)
+x1_after = (x1 * (1/abs(b))) + -(h)
 y1 = 0
 y1_after = (y1 * a) + k
 
 #Points2
 x2 = 1
-x2_after = (x2 * b) + -(h)
+x2_after = (x2 * (1/abs(b))) + -(h)
 y2 = 1
 y2_after = (y2 * a) + k
 
 #Points3
 x3 = 4
-x3_after = (x3 * b) + -(h)
+x3_after = (x3 * (1/abs(b))) + -(h)
 y3 = 2
 y3_after = (y3 * a) + k
 
 #Points4
 x4= 9
-x4_after = (x4 * b) + -(h)
+x4_after = (x4 * (1/abs(b))) + -(h)
 y4 = 3
 y4_after = (y4 * a) + k
 
 #Points5
 x5 = 16
-x5_after = (x5 * b) + -(h)
+x5_after = (x5 * (1/abs(b))) + -(h)
 y5 = 4
 y5_after = (y5 * a) + k
 
 #Points6
 x6 = 25
-x6_after = (x6 * b) + -(h)
+x6_after = (x6 * (1/abs(b))) + -(h)
 y6 = 5
 y6_after = (y6 * a) + k
 
 #Points7
 x7 = 36
-x7_after = (x7 * b) + -(h)
+x7_after = (x7 * (1/abs(b))) + -(h)
 y7 = 6
 y7_after = (y7 * a) + k
 
@@ -192,13 +192,13 @@ y9_after = (y9 * a) + k
 
 #Points10
 x10 = 81
-x10_after = (x10 * b) + -(h)
+x10_after = (x10 * (1/abs(b))) + -(h)
 y10 = 9
 y10_after = (y10 * a) + k
 
 #Points11
 x11 = 100
-x11_after = (x11 * b) + -(h)
+x11_after = (x11 * (1/abs(b))) + -(h)
 y11 = 10
 y11_after = (y11 * a) + k
 
