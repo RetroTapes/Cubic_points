@@ -91,13 +91,13 @@ else:
 
 #b horizontal stretch
 if abs(b) > 1:
-    print(f"There is a vertical stretch by a factor of {abs(b)}")
+    print(f"There is a horizontal stretch by a factor of {(1/abs(b))}")
 
 elif abs(b) < 1:
-    print(f"There is a vertical stretch by a factor of {abs(b)}")
+    print(f"There is a horizontal stretch by a factor of {(1/abs(b))}")
 
 elif abs(b) == 1:
-    print("There is no vertical stretch.")
+    print("There is no horizontal stretch.")
 
 
 #spacing
