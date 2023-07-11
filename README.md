@@ -1,1 +1,1 @@
-# Cubic_points
+u read, u gay
